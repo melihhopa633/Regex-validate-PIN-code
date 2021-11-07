@@ -2,7 +2,7 @@ function validatePIN(pin) {
   var intArr = pin.split("");
   let a = 0;
   for (let i = 0; i < intArr.length; i++) {
-    if (!isNaN(intArr[0]) == true) {
+    if (!isNaN(intArr[i]) == true) {
       a++;
     }
   }
